@@ -2,9 +2,9 @@
 import netsnmp
 import datetime
 
-hosts = ["fut-prod-fp01.fut.netic.dk", "fut-prod-fp01-sec.fut.netic.dk","fut-preprod-fp01.fut.netic.dk", "fut-preprod-fp01-sec.fut.netic.dk",]
-hosts_os = ["fut-prod-fp01-dc1.fut.netic.dk", "fut-prod-fp01-dc4.fut.netic.dk","fut-preprod-fp01-dc1.fut.netic.dk", "fut-preprod-fp01-dc4.fut.netic.dk"]
-output_path = "/data/splunk/fut/"
+hosts = ["firewall.example.com",]
+hosts_os = ["firewall-mgmt.example.com"]
+output_path = "/data/firepower/"
 snmp_community = "public"
 
 

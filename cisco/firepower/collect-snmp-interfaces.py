@@ -7,8 +7,8 @@ import time
 import pprint
 
 
-hosts = ["fut-prod-fp01.fut.netic.dk", "fut-prod-fp01-sec.fut.netic.dk","fut-preprod-fp01.fut.netic.dk", "fut-preprod-fp01-sec.fut.netic.dk"]
-output_path = "/data/splunk/fut/"
+hosts = ["firewall.example.com"]
+output_path = "/data/firepower/"
 snmp_community = "public"
 
 workingDirectory = "./work"
