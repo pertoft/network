@@ -1,0 +1,4 @@
+PATH=/sbin:/usr/sbin:/bin:/usr/bin
+#Collect SNMP every 5 min from ftd firewalls
+* * * * *   root /usr/bin/python  /pack/fut-ftd-repporting/collect-snmp.py
+

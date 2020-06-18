@@ -1,0 +1,9 @@
+/data/splunk/fut/*.csv {
+        daily
+        rotate 14
+        copytruncate
+        compress
+        delaycompress
+        missingok
+        notifempty
+}
